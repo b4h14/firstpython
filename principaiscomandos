@@ -1,0 +1,8 @@
+#usar chaves = dicionários (feito pra armazenar dados em pares {Dado1:Dado2,Dados1:Dados2} e pode ser alterado)
+#usar chaves com dados simples = set (não é indexável, nem alterável (somente para incluir e excluir) e não é ordenado)
+#usar parenteses = tuplas (ordenadas, permitem registros duplicados e não pode ser alterado)
+#usar colchetes = listas (ordenadas, alteráveis, indexadas)
+  #para incluir um novo registro na lista = nomedalista.append()
+
+#como fazer printf = "print(f' xxx {variável} xxx)".
+#imput = comando que pode inserir em uma fórmula para pedir alguma informação do usuário
