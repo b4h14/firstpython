@@ -1,4 +1,8 @@
 #usar chaves = dicionários (feito pra armazenar dados em pares {Dado1:Dado2,Dados1:Dados2} e pode ser alterado)
+  #update() = alterar ou criar um novo registro no dicionário
+  #copy() = copiar um dicionário
+  #pop() = elimina um registro e mostra o valor dele na tela
+  #clear() = apaga todo o dicionário
 #usar chaves com dados simples = set (não é indexável, nem alterável (somente para incluir e excluir) e não é ordenado)
 #usar parenteses = tuplas (ordenadas, permitem registros duplicados e não pode ser alterado)
 #usar colchetes = listas (ordenadas, alteráveis, indexadas)
