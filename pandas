@@ -1,0 +1,12 @@
+#comando básico para importar pandas
+  #import pandas as pd
+  
+#criar séries = pd.Series
+#criar datasets = pd.DataFrame
+
+#selecionar uma coluna no DF
+  #nomedaDS ['nomedacoluna']
+  
+#localizar um registro no DF
+  #nomedaDS.loc [['registro'], [colunasdesejadas]]
+  #nomedaDS.iloc [numerodoindice]
