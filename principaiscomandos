@@ -10,3 +10,13 @@
 
 #como fazer printf = "print(f' xxx {variável} xxx)".
 #imput = comando que pode inserir em uma fórmula para pedir alguma informação do usuário
+
+#principais operações aritméticas
+  #potenciação = **
+  #divisão sem o resto = //
+  #resto da divisão = %
+  # igual a ==
+  # diferente de !=
+  
+#conversão de dados:
+  #str(), int(), float()
