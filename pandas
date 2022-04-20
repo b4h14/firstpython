@@ -10,3 +10,10 @@
 #localizar um registro no DF
   #nomedaDS.loc [['registro'], [colunasdesejadas]]
   #nomedaDS.iloc [numerodoindice]
+
+#querys
+  #estrutura básica = nomedaDS.querydesejada (pode ser uma coluna)
+  #nomedaDS.querydesejada == ['parâmetro1'] / retorna lista booleana
+  #nomedaDS[parâmetro1] / retorna uma consulta
+    #pode ser usada a estrutura [() & ()] para mais de um parâmetro
+  #nomedaDS.query('parametro1 == "registro1" (str) and parametro2 == registro2')
