@@ -1,6 +1,13 @@
 #comando básico para importar pandas
   #import pandas as pd
   
+#importando bases de dados
+  #csv = pd.read_csv ()
+  #json = pd.read_json ()
+  #txt = pd.read_table ()
+  #xlsx = pd.read_excel ()
+  #html = pd.read_html
+  
 #criar séries = pd.Series
 #criar datasets = pd.DataFrame
 
