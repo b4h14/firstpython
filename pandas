@@ -17,3 +17,17 @@
   #nomedaDS[parâmetro1] / retorna uma consulta
     #pode ser usada a estrutura [() & ()] para mais de um parâmetro
   #nomedaDS.query('parametro1 == "registro1" (str) and parametro2 == registro2')
+
+#como iterar em pandas
+  #iterrows()
+  #itercolumns()
+  #itens()
+
+#tratamento de dados
+  #nomedaDS.isna() = detecta valores vazios
+  #nomedaDS.isnull() = detecta valores não-vazios
+  #nomedaDS.fillna(valordesejado, inplace = True) = preenche valores vazios
+    #inplace = confirma a substituição dos valores no DF
+  #nomedaDS.dropna(subset = ['valordesejado'] = elimina valores vazios
+  #nomedaDS.dropna(subset = ['valordesejado'] = elimina valores vazios
+    #lemmbrar de usar sempre implace para confirmar as alterações
