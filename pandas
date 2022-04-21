@@ -8,6 +8,9 @@
   #xlsx = pd.read_excel ()
   #html = pd.read_html
   
+#exportando bases de dados
+  #csv = nomedaDS.to_csv('nomedoarquivo.csv')
+  
 #criar séries = pd.Series
 #criar datasets = pd.DataFrame
 
@@ -24,6 +27,7 @@
   #nomedaDS[parâmetro1] / retorna uma consulta
     #pode ser usada a estrutura [() & ()] para mais de um parâmetro
   #nomedaDS.query('parametro1 == "registro1" (str) and parametro2 == registro2')
+  #nomedaDS.columns.name = '', '', '' = Alterar nome das colunas do DF
 
 #como iterar em pandas
   #iterrows()
@@ -33,8 +37,13 @@
 #tratamento de dados
   #nomedaDS.isna() = detecta valores vazios
   #nomedaDS.isnull() = detecta valores não-vazios
+  #nomedaDS.isin() = detecta valores específicos em formato booleano
   #nomedaDS.fillna(valordesejado, inplace = True) = preenche valores vazios
     #inplace = confirma a substituição dos valores no DF
   #nomedaDS.dropna(subset = ['valordesejado'] = elimina valores vazios
   #nomedaDS.dropna(subset = ['valordesejado'] = elimina valores vazios
     #lemmbrar de usar sempre implace para confirmar as alterações
+  #nomedaDS.drop_duplicates () = deletar registros duplicados
+  #nomedaDS.drop () = deletar registros
+  #nomedaDS.index = alterar e redefinir o index da tabela
+  #nomedaDS.concat ([Lista1], [Lista2]...) = concatenar DFs
