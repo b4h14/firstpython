@@ -22,3 +22,4 @@
   #str(), int(), float()
 
 #o "or", usado para somar as condições em uma variável, é escrito no python com uma barra vertical "|"
+#da mesma forma, você usa o "and" com "&"
