@@ -20,3 +20,5 @@
   
 #conversão de dados:
   #str(), int(), float()
+
+#o "or", usado para somar as condições em uma variável, é escrito no python com uma barra vertical "|"
