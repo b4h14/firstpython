@@ -47,3 +47,17 @@
   #nomedaDS.drop () = deletar registros
   #nomedaDS.index = alterar e redefinir o index da tabela
   #nomedaDS.concat ([Lista1], [Lista2]...) = concatenar DFs
+  #nomedaDS.apply() = aplicar uma função em cada registro do DF
+  #del nomedaDS['Colunaparadeletar'] = deletar 1 coluna
+  #nomedaDS.value_counts() = contar a frequência de registros
+
+#lambda
+  #é usado para una função anônima, ou seja, é a melhor função auxiliar em outra função
+  #sintaxe básica: nomedafuncao = lambda var1, var2, var3 : formula
+
+#análise descritiva
+  #nomedaDS.describe() = obter informações estatísticas do DF
+  #nomedaDS.groupby() = criar um DF específico com o agrupamento de uma variável
+  #pdcut(nomedaDS.colunadoquery, criterios) = categorizar por um critério específico
+    #ex de criterios = [2,5,9,13] = [2,5],]5,9],]9,13]
+41
