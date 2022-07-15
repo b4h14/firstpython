@@ -1,6 +1,11 @@
-#comando básico para importar pandas
-  #import pandas as pd
-  
+#comando básico para importacao
+  import xxx as xxx
+    import pandas as pd
+    import random
+    import matplotlib as plt
+_____________________________________________________________________________________________________________________________________________________________
+                                                                        PANDAS
+
 #importando bases de dados
   #csv = pd.read_csv ()
   #json = pd.read_json ()
