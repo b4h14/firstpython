@@ -11,6 +11,12 @@
 #set - não é indexável, nem alterável (somente para incluir e excluir) e não é ordenado
   novoSet = {Data1, Data2, Data3...)
   
+  
+#é possível consultar indices de listas, tuplas ou dicionarios usando
+  lista[0] || tupla[-1] || lista[0:-2]
+    #O indice sempre começa com 0
+    #Para incluir um intervalo de indices, use o primeiro intervalo fechado e o segundo aberto
+  
 _____________________________________________________________________________________________________________________________________________________________
                                                               FUNCOES DE COLECOES
                                                             
