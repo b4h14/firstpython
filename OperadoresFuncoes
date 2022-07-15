@@ -1,0 +1,26 @@
+#Como criar uma função simples
+  def nomeFuncao(parametros{opcional}):
+
+#print - imprimir algum valor
+  print("Hello World!")
+#print f' - imprimir valores com variáveis
+  nome = "Maria"
+  print(f' xxx {nome} xxx)
+  
+#input = comando que pode inserir em uma fórmula para pedir alguma informação do usuário
+
+#principais operações aritméticas
+  #potenciação = **
+  #divisão sem o resto = //
+  #resto da divisão = %
+  # igual a ==
+  # diferente de !=
+  
+#conversão de dados:
+  #str(), int(), float()
+
+#o "or", usado para somar as condições em uma variável, é escrito no python com uma barra vertical "|"
+#da mesma forma, você usa o "and" com "&"
+
+
+
