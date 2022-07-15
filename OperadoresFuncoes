@@ -1,15 +1,25 @@
 #Como criar uma função simples
-  def nomeFuncao(parametros{opcional}):
+  def nomeFuncao(parametros {opcional} ):
+  
+#Condicionais baiscas
+  if condicao1:
+    resultadoCondicao1
+    else:
+      resultadoCondicao2
+      
+#Iteracoes basicas
+  for variavelNova in nomeColecao:
 
 #print - imprimir algum valor
   print("Hello World!")
 #print f' - imprimir valores com variáveis
   nome = "Maria"
-  print(f' xxx {nome} xxx)
+  print(f "xxx {nome} xxx")
   
-#input = comando que pode inserir em uma fórmula para pedir alguma informação do usuário
+#input - comando que solicita alguma informação do usuário
+  varX = input(pergunta)
 
-#principais operações aritméticas
+#principais operadores aritméticas
   #potenciação = **
   #divisão sem o resto = //
   #resto da divisão = %
