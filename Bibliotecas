@@ -3,6 +3,27 @@
     import pandas as pd
     import random
     import matplotlib as plt
+    import numpy as np
+_____________________________________________________________________________________________________________________________________________________________
+                                                                        NUMPY
+
+#importando bases de dados
+  #csv = np.loadcsv ('nomeDoArquivo')
+  #txt = np.loadtxt('nomeDoArquivo')
+
+#principais operadores aritméticas
+  #potenciação = **
+  #divisão sem o resto = //
+  #resto da divisão = %
+  # igual a ==
+  # diferente de !=
+  
+#podemos usar em operacoes matematicas o operador " _ " para registrar o ultimo resultado impresso
+  2 + 2
+    //output = 4
+  _ * 2
+    //output = 8
+
 _____________________________________________________________________________________________________________________________________________________________
                                                                         PANDAS
 
