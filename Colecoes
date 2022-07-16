@@ -4,6 +4,8 @@
 #listas - ordenadas, alteráveis, indexadas
   #o mais usado em objetos simples
     novaLista = [Data1,Data2,Data3...]
+  #é possível criar uma sublista dentro da lista
+    novaLista = [Data1,Data2,[SubData1,SubData2]]
 
 #tuplas - ordenadas, permitem registros duplicados e não pode ser alterado
   novaTupla = (Data1,Data1,Data2,Data3...)
