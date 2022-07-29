@@ -22,6 +22,14 @@
 _____________________________________________________________________________________________________________________________________________________________
                                                               FUNCOES DE COLECOES
                                                             
+#x in y - Faz a procura de algum item na lista, retornando um boolean
+  itemProcurado in lista1
+    //output - False
+    
+#len - vê o tamanho de uma coleção
+  len(lista)
+    //output - n de itens
+  
   #update() = alterar ou criar um novo registro no dicionário
   #copy() = copiar um dicionário
   #pop() = elimina um registro e mostra o valor dele na tela
