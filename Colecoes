@@ -29,10 +29,20 @@ ________________________________________________________________________________
 #len - vê o tamanho de uma coleção
   len(lista)
     //output - n de itens
+    
+#append - incluir um novo registro na lista
+  nomedalista.append(novoRegistro)
+  
+#sort - ordenar os elementos na lista
+  nomedalista.sort()
+  
+#pop - Elimina e retorna como output o elemento selecionado
+  #Caso n tenha nenhum argumento, sera eliminado o ultimo registro
+    nomedalista.pop()
+    nomedalista.pop(0)
+    
+#copy - Faz uma copia de uma lista
+  nomeDaListaNova = nomeDaLista.copy()
   
   #update() = alterar ou criar um novo registro no dicionário
-  #copy() = copiar um dicionário
-  #pop() = elimina um registro e mostra o valor dele na tela
   #clear() = apaga todo o dicionário
-  
-    #para incluir um novo registro na lista = nomedalista.append()
