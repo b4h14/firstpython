@@ -4,13 +4,18 @@
     import random
     import matplotlib as plt
     import numpy as np
+    
+#é possivel importar só uma parte de uma biblioteca para usar
+  from numpy import arange
+  
+  
 _____________________________________________________________________________________________________________________________________________________________
                                                                         NUMPY
 
 #importando bases de dados
   #csv = np.loadcsv ('nomeDoArquivo')
   #txt = np.loadtxt('nomeDoArquivo')
-
+  
 #principais operadores aritméticas
   #potenciação = **
   #divisão sem o resto = //
@@ -24,6 +29,19 @@ ________________________________________________________________________________
   _ * 2
     //output = 8
 
+#range - Cria um array determinado anteriormente
+  novoArray = np.arange(10)
+
+#É possível criar operações entre int e arrays usando o numpy
+  anos = np.array([2003,1995,1970,2014]
+  idade = 2022 - anos
+    #output = [(19, 27, 52, 8)]
+    
+#Como fazer seleções em arrays np
+  array[elementoInicialFechado:elementoFinalAberto:QuantidadePassos]
+
+#Metodos e atributos numpy
+  #https://numpy.org/doc/stable/reference/arrays.ndarray.html#array-attributes
 _____________________________________________________________________________________________________________________________________________________________
                                                                         PANDAS
 
