@@ -1,5 +1,12 @@
 #dicionários - feito pra armazenar dados em pares e pode ser alterado
-  novoDicionario = {Dado1:Resposta1,Dados1:Respostas1}
+  novoDicionario = {Dado1:Resposta1, Dados1:Respostas1, Chave1:Valor1 ...}
+  
+    #query - Fazer uma consulta do valor com base no índice ou na chave
+      dict[indiceValor]
+    #Incluir algum valor no dicionario
+      dict["Chave"] = Valor
+    #del - Deletar um valor no dicionário
+      del dict["Chave"]
   
 #listas - ordenadas, alteráveis, indexadas
   #o mais usado em objetos simples
@@ -9,11 +16,16 @@
 
 #tuplas - ordenadas, permitem registros duplicados e não pode ser alterado
   novaTupla = (Data1,Data1,Data2,Data3...)
+    
+    #zip - separa uma coleção e faz uma iteração criando tuplas
+      Lista1 = [1,2,3,4]
+      Lista2 = [a,b,c,d]
+      Lista3 = zip(Lista1,Lista2)
+        #output= (1,a) (2,b) (3,c) (4,d)
 
 #set - não é indexável, nem alterável (somente para incluir e excluir) e não é ordenado
   novoSet = {Data1, Data2, Data3...)
-  
-  
+    
 #é possível consultar indices de listas, tuplas ou dicionarios usando
   lista[0] || tupla[-1] || lista[0:-2]
     #O indice sempre começa com 0
@@ -22,6 +34,16 @@
 _____________________________________________________________________________________________________________________________________________________________
                                                               FUNCOES DE COLECOES
                                                             
+#FUNCOES DE DICIONARIOS
+  #dict.keys - Mostra uma lista com as chaves do dicionario
+    dict.keys()
+    
+  #dict.values - Mostra uma lista com os valores do dicionario
+    dict.values()
+  
+  #dict.items - Mostra listas com os itens do dicionario
+    dict.items()
+    
 #x in y - Faz a procura de algum item na lista, retornando um boolean
   itemProcurado in lista1
     //output - False
@@ -36,13 +58,21 @@ ________________________________________________________________________________
 #sort - ordenar os elementos na lista
   nomedalista.sort()
   
-#pop - Elimina e retorna como output o elemento selecionado
+#pop - Elimina e retorna como output o elemento selecionado - LISTAS E DICIONARIOS
   #Caso n tenha nenhum argumento, sera eliminado o ultimo registro
+  #Caso seja um dicionario e o valor n seja encontrado, sera informado o valor default
+    #Caso n haja valor default, ira gerar um erro
     nomedalista.pop()
-    nomedalista.pop(0)
+    dict.pop(Chave[Default])
     
-#copy - Faz uma copia de uma lista
+#copy - Faz uma copia de uma lista ou um dicionario
   nomeDaListaNova = nomeDaLista.copy()
   
-  #update() = alterar ou criar um novo registro no dicionário
-  #clear() = apaga todo o dicionário
+#update() = alterar ou criar um novo registro no dicionário
+  dicionario.update({Chave1:Valor1 , Chave2:Valor2, ...})
+
+#clear() = apaga todo o dicionário
+  dicionario.clear()
+
+#sum() - Faz um somatorio de toda a colecao
+  sum(nomeColecao, [valorInicialSoma])
