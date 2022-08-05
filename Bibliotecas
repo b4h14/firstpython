@@ -55,6 +55,29 @@ ________________________________________________________________________________
 #exportando bases de dados
   #csv = nomedaDS.to_csv('nomedoarquivo.csv')
   
+#funcoes basicas para pandas
+  #dtype - Traz todos os tipos de dados na coleção
+    nomeObjeto.dtypes
+    
+  #describe - Traz alguns valores estatísticos importantes
+    nomeOBjeto.describe()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 #criar séries = pd.Series
 #criar datasets = pd.DataFrame
 
