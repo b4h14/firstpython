@@ -4,8 +4,10 @@
 #Condicionais baiscas
   if condicao1:
     resultadoCondicao1
+  elif condicao2:
+    resultadoCondicao2
     else:
-      resultadoCondicao2
+      resultadoCondicao3
       
 #Iteracoes basicas
   for variavelNova in nomeColecao:
