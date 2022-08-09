@@ -46,7 +46,7 @@ ________________________________________________________________________________
                                                                         PANDAS
 
 #importando bases de dados
-  #csv = pd.read_csv ()
+  #csv = pd.read_csv ('nomedoarquivo.csv', sep = ';')
   #json = pd.read_json ()
   #txt = pd.read_table ()
   #xlsx = pd.read_excel ()
@@ -55,12 +55,29 @@ ________________________________________________________________________________
 #exportando bases de dados
   #csv = nomedaDS.to_csv('nomedoarquivo.csv')
   
+#criando series e dataframes no pandas
+  #series - lista de registros unicos, com indice e registro
+    pd.Series(lista)    
+  #dataframes - listas com diversos valores para cada indice
+    pd.DataFrame(dicionario)
+  
 #funcoes basicas para pandas
   #dtype - Traz todos os tipos de dados na coleção
     nomeObjeto.dtypes
-    
+  #head - Traz os 5 primeiros registros
+    nomeDataframe.head()
   #describe - Traz alguns valores estatísticos importantes
     nomeOBjeto.describe()
+  #loc - Faz uma busca de registros
+    nomeDataframe.loc[nomeRegistro]
+  #iloc - Faz a mesma busca, com base no indice
+    nomeDataframe.iloc[indiceRegistro]
+
+#fazendo querys no dataframe
+  pd.nomeDataframe['NomedaColuna'= valordaColuna]
+    
+#selecionando colunas
+  pd.nomeDataframe['nomedaColuna']
   
   
   
