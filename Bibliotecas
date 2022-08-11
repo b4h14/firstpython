@@ -72,46 +72,40 @@ ________________________________________________________________________________
     nomeDataframe.loc[nomeRegistro]
   #iloc - Faz a mesma busca, com base no indice
     nomeDataframe.iloc[indiceRegistro]
-
-#fazendo querys no dataframe
-  pd.nomeDataframe['NomedaColuna'= valordaColuna]
     
 #selecionando colunas
   pd.nomeDataframe['nomedaColuna']
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-#criar séries = pd.Series
-#criar datasets = pd.DataFrame
-
-#selecionar uma coluna no DF
-  #nomedaDS ['nomedacoluna']
-  
-#localizar um registro no DF
-  #nomedaDS.loc [['registro'], [colunasdesejadas]]
-  #nomedaDS.iloc [numerodoindice]
 
 #querys
-  #estrutura básica = nomedaDS.querydesejada (pode ser uma coluna)
-  #nomedaDS.querydesejada == ['parâmetro1'] / retorna lista booleana
-  #nomedaDS[parâmetro1] / retorna uma consulta
-    #pode ser usada a estrutura [() & ()] para mais de um parâmetro
-  #nomedaDS.query('parametro1 == "registro1" (str) and parametro2 == registro2')
+  #estrutura básica - retorna uma consulta de coluna
+    nomedaDS.colunaDesejada
+  #Query que retorna lista booleana
+    nomedaDS.querydesejada == ['parametro'] 
+  #Query que retorna uma consulta de registro
+    nomedaDS[parametro]
+      #pode ser usada a estrutura [() & ()] ao usar and, ou usar o | ao usar o or
+  #Outra sintaxe 
+    nomedaDS.query('parametro1 == "registro1" (str) and parametro2 == registro2')
   #nomedaDS.columns.name = '', '', '' = Alterar nome das colunas do DF
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
 
 #como iterar em pandas
   #iterrows()
