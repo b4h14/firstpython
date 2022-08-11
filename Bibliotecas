@@ -88,6 +88,14 @@ ________________________________________________________________________________
     nomedaDS.query('parametro1 == "registro1" and/or parametro2 == registro2')
   #nomedaDS.columns.name = '', '', '' = Alterar nome das colunas do DF
   
+#tratamento de dados
+  #inplace = confirma a substituição dos valores no DF
+  #Consulta de uma coluna que retorna os valores vazios em formato booleano
+    nomedaDS.colunaConsultada.isna()
+  #Preencher os dados vazios
+    nomedaDS.fillna(valorDesejado, inplace = True/False )
+  #Remover dados vazios
+    dataset.dropna()
   
   
   
@@ -112,12 +120,7 @@ ________________________________________________________________________________
   #itercolumns()
   #itens()
 
-#tratamento de dados
-  #nomedaDS.isna() = detecta valores vazios
-  #nomedaDS.isnull() = detecta valores não-vazios
-  #nomedaDS.isin() = detecta valores específicos em formato booleano
-  #nomedaDS.fillna(valordesejado, inplace = True) = preenche valores vazios
-    #inplace = confirma a substituição dos valores no DF
+
   #nomedaDS.dropna(subset = ['valordesejado'] = elimina valores vazios
   #nomedaDS.dropna(subset = ['valordesejado'] = elimina valores vazios
     #lemmbrar de usar sempre implace para confirmar as alterações
