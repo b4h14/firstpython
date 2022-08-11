@@ -1,1 +1,17 @@
-
+#Importando o pandas para o projeto
+  import pandas as pd
+  
+#Importando base de dados
+  csv = pd.read_csv('nomeArquivo.csv')
+  json = pd.read_json('nomeArquivo.json')
+  txt = pd.read_table('nomeArquivo.txt')
+  xlsx = pd.read_excel('nomeArquivo.xlsx')
+  
+#Funcoes basicas em pandas
+  
+  #Obter informações importantes no dataframe
+    dataframe.info()
+  #Saber a quantidade de colunas/linhas
+    dataframe.shape()
+  #Visualizar os datatypes
+    dataframe.dtypes()
