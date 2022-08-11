@@ -85,7 +85,7 @@ ________________________________________________________________________________
     nomedaDS[parametro]
       #pode ser usada a estrutura [() & ()] ao usar and, ou usar o | ao usar o or
   #Outra sintaxe 
-    nomedaDS.query('parametro1 == "registro1" (str) and parametro2 == registro2')
+    nomedaDS.query('parametro1 == "registro1" and/or parametro2 == registro2')
   #nomedaDS.columns.name = '', '', '' = Alterar nome das colunas do DF
   
   
