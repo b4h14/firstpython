@@ -51,6 +51,7 @@
 
 #tratamento de dados
   #inplace = confirma a substituição dos valores no DF
+  
   #Consulta de uma coluna que retorna os valores vazios em formato booleano
     nomedaDS.colunaConsultada.isna()
   #Preencher os dados vazios
@@ -59,3 +60,8 @@
     dataset.dropna()
   #Eliminar valores repetidos
     dataset.drop_duplicates()
+  #Visualizar ou alterar o index de um df
+    dataset.index = novoIndex
+  #Retornar uma lista booleana informando se há um conjunto de itens pré-determinados
+    dataset.isin(listaCriterios)
+  
