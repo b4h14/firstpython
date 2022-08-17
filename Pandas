@@ -28,14 +28,16 @@
     dataframe.shape()
   #Visualizar os datatypes
     dataframe.dtypes()
-  #head - Traz os 5 primeiros registros
+  #Trazer os 5 primeiros registros
     nomeDataframe.head()
-  #describe - Traz alguns valores estatísticos importantes
+  #Trazer alguns valores estatísticos importantes
     nomeOBjeto.describe()
-  #loc - Faz uma busca de registros
+  #Fazer uma busca de registros
     nomeDataframe.loc[nomeRegistro]
-  #iloc - Faz a mesma busca, com base no indice
+  #Fazer a mesma busca, com base no indice
     nomeDataframe.iloc[indiceRegistro]
+  #Exportar um dataframe para um arquivo CSV
+    dataset.to_csv('diretorio/nomeArquivo.csv')
     
 #querys
   #estrutura básica - retorna uma consulta de coluna
