@@ -66,4 +66,8 @@
     dataset.index = novoIndex
   #Retornar uma lista booleana informando se há um conjunto de itens pré-determinados
     dataset.isin(listaCriterios)
-  
+  #Retornar um dataframe informando se cada campo é nulo, ou não
+    dataset.isnull()
+    dataset.notnull()
+  #Eliminar todos os registros nulos
+    dataset.dropna(subset = criterioParaEliminarValoresNulos)
