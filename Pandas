@@ -71,3 +71,5 @@
     dataset.notnull()
   #Eliminar todos os registros nulos
     dataset.dropna(subset = criterioParaEliminarValoresNulos)
+  #Preencher registros nulos
+    dataset.fillna()
