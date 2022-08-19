@@ -23,41 +23,50 @@
 #Funcoes basicas em pandas
   
   #Obter informações importantes no dataframe
-    dataframe.info()
+    dataset.info()
   #Saber a quantidade de colunas/linhas
-    dataframe.shape()
+    dataset.shape()
   #Visualizar os datatypes
-    dataframe.dtypes()
+    dataset.dtypes()
   #Trazer os 5 primeiros registros
-    nomeDataframe.head()
+    dataset.head()
   #Trazer alguns valores estatísticos importantes
-    nomeOBjeto.describe()
+    dataset.describe()
   #Fazer uma busca de registros
-    nomeDataframe.loc[nomeRegistro]
+    dataset.loc[nomeRegistro]
   #Fazer a mesma busca, com base no indice
-    nomeDataframe.iloc[indiceRegistro]
+    dataset.iloc[indiceRegistro]
   #Exportar um dataframe para um arquivo CSV
     dataset.to_csv('diretorio/nomeArquivo.csv')
+  #Aplicar uma função para todas as linhas/registros
+    dataset.apply()
     
 #querys
   #estrutura básica - retorna uma consulta de coluna
-    nomedaDS.colunaDesejada
+    dataset.colunaDesejada
   #Query que retorna lista booleana
-    nomedaDS.querydesejada == ['parametro'] 
+    dataset.querydesejada == ['parametro'] 
   #Query que retorna uma consulta de registro
-    nomedaDS[parametro]
+    dataset[parametro]
       #pode ser usada a estrutura [() & ()] ao usar and, ou usar o | ao usar o or
   #Outra sintaxe 
-    nomedaDS.query('parametro1 == "registro1" and/or parametro2 == registro2')
-  #nomedaDS.columns.name = '', '', '' = Alterar nome das colunas do DF
+    dataset.query('parametro1 == "registro1" and/or parametro2 == registro2')
+  #dataset.columns.name = '', '', '' = Alterar nome das colunas do DF
+
+#Lambda
+  #Lambda é usada para criar uma função anônima, sem definições e por um curto periodo de tempo
+    #Uma função lambda pode ter vários argumentos, mas só uma função
+    #O Lambda é muito usado para inserir uma função dentro de outra função
+  #Sintaxe
+    lambda expressaoAnonima : expressaoRetorno
 
 #tratamento de dados
   #inplace = confirma a substituição dos valores no DF
   
   #Consulta de uma coluna que retorna os valores vazios em formato booleano
-    nomedaDS.colunaConsultada.isna()
+    dataset.colunaConsultada.isna()
   #Preencher os dados vazios
-    nomedaDS.fillna(valorDesejado, inplace = True/False )
+    dataset.fillna(valorDesejado, inplace = True/False )
   #Remover dados vazios
     dataset.dropna()
   #Eliminar valores repetidos
