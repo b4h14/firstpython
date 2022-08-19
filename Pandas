@@ -40,6 +40,10 @@
     dataset.to_csv('diretorio/nomeArquivo.csv')
   #Aplicar uma função para todas as linhas/registros
     dataset.apply()
+  #Eliminar uma coluna retornando a coluna eliminada
+    dataset.pop(indiceItemRetirado)
+  #Eliminar uma linha ou coluna do dataset
+    dataset.drop(itemOuColecaoRetirada, axis = 0 (linhas) | 1 (colunas))
     
 #querys
   #estrutura básica - retorna uma consulta de coluna
@@ -82,3 +86,5 @@
     dataset.dropna(subset = criterioParaEliminarValoresNulos)
   #Preencher registros nulos
     dataset.fillna()
+  #Agrupar registros conforme criterios
+    dataset.groupby(agrupamentoDesejado)
