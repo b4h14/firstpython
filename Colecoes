@@ -76,3 +76,12 @@ ________________________________________________________________________________
 
 #sum() - Faz um somatorio de toda a colecao
   sum(nomeColecao, [valorInicialSoma])
+
+#round() - Arrendonda casas decimais conforme informado
+  dataset.round(numeroCasasPrecisao)
+  
+#unique() - Retorna os dados unicos da lista
+  dataset.unique()
+  
+#value_counts() - Faz uma contagem de numero de itens de uma coleção
+  dataset.value_counts()
