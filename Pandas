@@ -15,6 +15,8 @@
     pd.Series(lista)    
   #dataframes - listas com diversos valores para cada indice
     pd.DataFrame(dicionario)
+  #Criando dataframe a partir de outro dataframe
+    dataset.to_frame()
 
 #selecionando colunas
   pd.nomeDataframe['nomedaColuna']
@@ -44,6 +46,8 @@
     dataset.pop(indiceItemRetirado)
   #Eliminar uma linha ou coluna do dataset
     dataset.drop(itemOuColecaoRetirada, axis = 0 (linhas) | 1 (colunas))
+  #Trazer uma quantidade de registros aleatorios
+    dataset.sample(numeroRegistros)
     
 #querys
   #estrutura básica - retorna uma consulta de coluna
