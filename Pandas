@@ -92,3 +92,6 @@
     dataset.fillna()
   #Agrupar registros conforme criterios
     dataset.groupby(agrupamentoDesejado)
+  #Alterar as colunas ou o index de um dataframe
+    dataset.rename(columns={chave1:registro1 ; chave2:registro2 ; ...}
+      #é sempre necessário fazer o processo através de dicionários
