@@ -9,6 +9,9 @@
     
 #exportando bases de dados
   #csv = nomedaDS.to_csv('nomedoarquivo.csv')
+  #json = dataset.to_json()
+  #html = dataset.to_html()
+  #sql = dataset.to_sql(nomeTabela, create_engine)
 
 #criando series e dataframes no pandas
   #series - lista de registros unicos, com indice e registro
