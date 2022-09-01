@@ -85,3 +85,9 @@ ________________________________________________________________________________
   
 #value_counts() - Faz uma contagem de numero de itens de uma coleção
   dataset.value_counts()
+
+#replace() - Substitui um conjunto de caracteres por outros
+  dataset.replace
+  
+#split() - Faz uma divisão de uma coleção em outras coleções com base em um caracter
+  dataset.split()
