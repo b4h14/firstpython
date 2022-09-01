@@ -41,8 +41,6 @@
     dataset.loc[nomeRegistro]
   #Fazer a mesma busca, com base no indice
     dataset.iloc[indiceRegistro]
-  #Exportar um dataframe para um arquivo CSV
-    dataset.to_csv('diretorio/nomeArquivo.csv')
   #Aplicar uma função para todas as linhas/registros
     dataset.apply()
   #Eliminar uma coluna retornando a coluna eliminada
@@ -51,6 +49,12 @@
     dataset.drop(itemOuColecaoRetirada, axis = 0 (linhas) | 1 (colunas))
   #Trazer uma quantidade de registros aleatorios
     dataset.sample(numeroRegistros)
+  #Transformar um arquivo json semi-estruturado em um dataframe
+    pd.json_normalize(data=nomeArquivo)
+  #Retirar os espaços ou os caracteres residuais
+    dataset.strip()
+  #Fazer um filtro no dataframe com base em um argumento de alguma coluna
+    dataset.filter
     
 #querys
   #estrutura básica - retorna uma consulta de coluna
@@ -98,3 +102,8 @@
   #Alterar as colunas ou o index de um dataframe
     dataset.rename(columns={chave1:registro1 ; chave2:registro2 ; ...}
       #é sempre necessário fazer o processo através de dicionários
+_____________________________________________________________________________________________________________________________________________________________
+                                                                    AVANÇANDO NO PANDAS
+
+#Fazer alterações e funções de strings em series de um df
+  series.str
